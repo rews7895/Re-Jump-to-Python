@@ -1,4 +1,4 @@
-# 문자열 자료형
+# 02-2. 문자열 자료형
 
 a = "Hello world"
 b = 'Python is fun'
