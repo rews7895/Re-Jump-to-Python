@@ -43,3 +43,4 @@ print(s1)
 # 특정값 제거(1개만 가능)
 s1.remove(2)
 print(s1)
+
