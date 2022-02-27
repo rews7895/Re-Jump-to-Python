@@ -31,8 +31,7 @@ pickle: 객체의 형태를 그대로 유지하면서 파일에 저장하고 불
 os: 환경 변수나 디렉터리, 파일 등의 OS자원을 제어할 수 있게 해주는 모듈이다.
   - os.environ: 현재 시스템의 환경 변수 값을 알고 싶을 때
 """
-from concurrent.futures import thread
-import os
+# import os
 # print(os.environ)
 # print(os.environ['PATH'])
 
