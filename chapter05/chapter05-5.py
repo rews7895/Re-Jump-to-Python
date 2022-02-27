@@ -210,3 +210,16 @@ tuple: 반복 가능한 자료형을 입력받아 튜플 형태로 바꾸어 돌
 # print(tuple('abc'))
 # print(tuple([1, 2, 3]))
 # print(tuple((1, 2, 3)))
+
+"""
+type: 입력값의 자료형이 무엇인지 알려주는 함수
+"""
+# print(type('abc'))
+# print(type([]))
+
+"""
+zip: 동일한 개수로 이루어진 자료형을 묶어 주는 역할을 하는 함수
+"""
+# print(list(zip([1, 2, 3], [4, 5, 6])))
+# print(list(zip([1, 2, 3], [4, 5, 6], [7, 8, 9])))
+# print(list(zip('abc', 'def')))
