@@ -3,16 +3,16 @@
 """
 import sys
 
-option = input()
+# option = input()
 
-if option == '-a':
-  memo = input()
-  f = open('storage/memo.txt', 'a')
-  f.write(memo)
-  f.write('\n')
-  f.close()
-elif option == '-v':
-  f = open('storage/memo.txt')
-  memo = f.read()
-  f.close()
-  print(memo)
+# if option == '-a':
+#   memo = input()
+#   f = open('storage/memo.txt', 'a')
+#   f.write(memo)
+#   f.write('\n')
+#   f.close()
+# elif option == '-v':
+#   f = open('storage/memo.txt')
+#   memo = f.read()
+#   f.close()
+#   print(memo)
